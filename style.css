@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Mukta:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --ff-title: "Lato", sans-serif;
+    --ff-text: "Mukta", arial;
+    --clr-night: #0d0a0b;
+    --clr-charcoal: #454955;
+    --clr-mindaro: #CEEC97;
+    --clr-npblue: #A6E1FA;
+    --clr-asblue: #7c9eb2;
+    --bg-index: url("./img/f2.jpg");
+}
+body{
+  background-image: var(--bg-index);  
+  background-size: cover;
+}
+
+a {
+    text-decoration: none ;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*Comienzo del header */
+
+.titulo-head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--clr-charcoal);
+    font-family: var(--ff-text);
+}
+.titulo-h1{
+    padding-left: 1%;
+    font-family: var(--ff-title);
+    color: #CEEC97;
+}
+
+.logo{
+    
+    max-width: 6rem;
+}
+
+.menu-nav{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    color: #CEEC97;
+}
+/* hasta aqui todo lo que tiene que ver con el header*/
+/*comienzo de zona central de index */
+.main {
+    position: relative;
+    background-image: url(./IMG/index.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+} 
+
+.inicio-texto{
+position: absolute;
+display: flex;
+hyphens: auto;
+word-wrap: break-word;
+word-break: break-word;
+left: 60%;
+top: 50%;
+font-family: var(--ff-text);
+background-color: #7c9eb2b4;
+padding: 15px;
+border-radius: 20px;
+}
+
+/*Fin zona central */
+/* footer index*/
+.footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: var(--ff-title);
+    background-color: var(--clr-charcoal);
+    color: var(--clr-mindaro);
+}
+.footer-buttons{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+/* Main de nosotros */
+.main-nosotros{
+    display: flex;
+    background-color: #7c9eb28f;
+    
+}
+.nosotros-img{
+   
+    padding: 60px;
+    border-radius: 20px;
+}
+.container{
+    text-align: center;
+    font-family: var(--ff-text);
+   
+}
+
+.nosotros-texto{
+    position: absolute;
+    top: 38%;
+    right: 10%;
+    left: 50%;
+    bottom: 50%;
+}
+/* aqui empieza clientes */
+
+.main-cliente{
+    background-color: #7c9eb29b;
+    height: 100vh;
+    
+}
+.tarjetas{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+
+}
+
+.tarjeta{
+    background-color: #45495575;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.tarjeta--maria{
+    background-image: url(./IMG/R1.jpg);
+    background-size: cover;
+}
+
+.tarjeta--sergio{
+    background-image: url(./IMG/R2.jpg);
+    background-size: cover;
+}
+
+.tarjeta--sofia{
+    background-image: url(./IMG/R3);
+    background-size: cover;
+}
+.titulo-t{
+    font-family:var(--ff-title);
+    background-color: #7c9eb2ab;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* aqui empieza Soluciones*/
+
+.main-soluciones{
+    background-color: #7c9eb293;
+    width: 100vw;
+    height: 100vh;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.gallery__item{
+    top: 70%;
+    position: relative;
+}
+.gallery__img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__title{
+    position: absolute;
+    bottom: 0;
+    background-color: #7c9eb2b3;
+    width: 100%;
+    font-family: var(--ff-text);
+    padding-left: 1%;
+}
+/* fin de soluciones*/
+
+/*comienzo de contacto*/
+
+.contactanos{
+    position: relative;
+    background-image: url(./IMG/s7.webp);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacto__img{
+    position: relative;
+    top: 30%:
+}
+form{
+    width: 300px; 
+    display:inline-block;
+    padding: 16px;
+}
+form label{
+    font-family: var(--ff-text);
+    display:block;
+    background-color: #7c9eb29b;
+    }
+ .form__buttons{
+    width: 80px;
+ }
+/* FIN CONTACTO*/
+
+
+
+
