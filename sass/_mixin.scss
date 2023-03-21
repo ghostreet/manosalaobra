@@ -1,0 +1,36 @@
+@mixin centradocolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+@mixin bordepad{
+    border-radius: 15px;
+    padding: 4px;
+}
+
+@mixin animacion{
+    animation:fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@mixin backgroundsizerepeat{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin wh100{
+    width: 100%;
+    height: 100%;
+}

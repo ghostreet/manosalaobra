@@ -1,0 +1,44 @@
+.nosotros {
+    display: flex;
+    background-image:url(../img/Nosotros2.png);
+    background-color: $bgctransc ;
+    min-height: 100vh;
+    @include backgroundsizerepeat;
+}
+
+.textonos { 
+    flex-wrap: wrap;
+    text-align: center;
+    text-indent: 5px;   
+    padding-top: 9%;
+    padding-right: 55%;
+    padding-left: 3%;
+}
+
+.bordetexto{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #e8d6c2a6;
+    padding: 3%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 10%;
+    animation: fadeIn 2s;
+}
+
+.r1{
+    display: flex;
+ }
+ .r2{
+     display: flex;
+ }
+ .reparador{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     
+ }
+ .reparador:hover {
+     filter:saturate(150%);
+     transition: all .5s ease-in-out;
+ }

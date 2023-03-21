@@ -1,0 +1,35 @@
+.footer{
+    background-color: #e8d6c2;
+}
+
+.footer {
+    background-color: $bgctransborder;
+}
+
+.containerbot{
+    @include centrado
+
+}
+
+.footer-title {
+    font-family: var(--ff-text);
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.mb-2{
+    &:hover{
+        filter:sepia(100%)
+    }
+}
+
+.i {
+    text-decoration: none;
+}
+
+.text-center{
+    background-color: rgba(0, 0, 0, 0.158);
+}

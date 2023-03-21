@@ -1,0 +1,6 @@
+.seccionprincipal {
+    height: 100vh;
+    background-image: url("../img/Hero.png");
+    @include backgroundsizerepeat;
+    @include centradocolumn;
+}

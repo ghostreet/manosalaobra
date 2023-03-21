@@ -1,0 +1,20 @@
+.clientes {
+    min-height: 100vh;
+    @include centrado;
+    gap: 10%;
+    background-image: url("../img/f2.jpg");
+    background-color: $bgcclients;
+}
+
+.card1 {
+    background-color: $bgctransc;
+    padding: 3%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 15%;
+    overflow:hidden;
+    transition: all .5s ease-in-out;
+    &:hover{
+        -webkit-transform:scale(1.3);transform:scale(1.3);
+    }
+    
+}

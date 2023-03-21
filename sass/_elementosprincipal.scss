@@ -1,0 +1,36 @@
+.seccionprincipal{
+    .b1 {
+        @include centradocolumn;
+        background-color: $bgctransc;
+        padding: 8px;
+        border-radius: 15px;
+        @include animacion;
+    }
+    .subtexto{ 
+        @include centradocolumn;
+        padding-top: 100px;
+        list-style: none;
+        font-family: var($ff-text);
+        animation: fadeIn 6s;
+    
+        h4{
+            background-color: $bgctransc;
+            @include bordepad;
+        }
+        
+        h5 {
+            background-color: $bgctransc;
+            @include bordepad;
+        }    
+    }
+
+    .hta{
+        animation: fadeIn 8s;
+        &:hover{
+            filter:saturate(400%);
+            transition: all .3s ease-in-out;
+        }
+    
+    }
+         
+}

@@ -1,0 +1,39 @@
+.bsoluciones {
+    background-color: $bgctransborder;
+}
+
+.container-img{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 30px;
+}
+
+.container-img .box-img figure{
+    @include wh100;
+}
+
+.container-img .box-img img{
+    @include wh100;
+    object-fit: cover;
+}
+
+.container-img .box-img:hover {
+    filter: opacity(.5);
+    transition: all .3s ease-in-out;
+}
+
+.nservicio{
+    background-color:$bgctransc;
+    bottom: 0;
+    width: 100%;
+    text-indent: 18%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
